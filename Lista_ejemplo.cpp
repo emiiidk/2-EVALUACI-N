@@ -7,8 +7,8 @@ main (){
 	x=0;
 	y=1;
 	for (i=0;i<9;i++){
-		x=x+num[i];
-		y=y*num[i];
+		x=x+num[i]; //suma
+		y=y*num[i]; //multiplicacion
 	}
 	cout << x << "\n"<< y;
 	

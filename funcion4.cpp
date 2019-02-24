@@ -8,7 +8,7 @@ int main(){
 	char dia_semana [10];
 	int i; int j;
 	char salida;
-	int caca;
+	int midia;
 	
 	for (i=0;i<=6;i++){
 		cout << "Dia " << i+1 << ": ";
@@ -24,8 +24,8 @@ int main(){
 	cout << "\n";
 }
 
-	cin >> caca;
-	cout << base_datos [caca-1];
+	cin >> midia;
+	cout << base_datos [midia-1];
 	
 	cin >> salida;
 	return 0;

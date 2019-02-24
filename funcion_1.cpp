@@ -3,9 +3,7 @@
 
 using namespace std;
 int multiplicador(int num0,int num1,int num2,int num3){
-    int respuesta;
-    respuesta=num0*num1*num2*num3;
-    return(respuesta);
+    return(num0*num1*num2*num3);
     }
     
 int main(){
